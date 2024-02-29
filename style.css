@@ -27,12 +27,18 @@ p{
 .question-click {
     background: rgb(47, 47, 47);
     border-radius: 30px;
-    border: 6px dashed pink;
 }
 .reponse {
     visibility: visible;
     opacity: 1;
     border: none;
+}
+button {
+    border: none;
+    width: 85px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .mousemove {
     height: 50px;
@@ -43,3 +49,4 @@ p{
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+

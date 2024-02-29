@@ -10,13 +10,16 @@ QuestionContainer.addEventListener('click', () => {
 });
 
 btn1.addEventListener('click', () => {
-    reponse.classList.add('reponse')
+    reponse.classList.add('reponse');
     reponse.style.background = "green";
+    reponse.style.borderRadius = "8px";
 })
 
 btn2.addEventListener('click', () => {
     reponse.classList.add('reponse')
     reponse.style.background = "red";
+    reponse.style.borderRadius = "8px";
+    alert("BAHAHAH T'ES NUL TU AS FAUX 🤣​🤣​")
 })
 
 //SOURIS
