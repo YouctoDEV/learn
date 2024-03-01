@@ -43,6 +43,15 @@ document.addEventListener('keypress', (e) => {
     if( e.key === "f") {
         keypressContainer.style.background = "orange";
     } else {
-        keypressContainer.style.background = "#333"
+        keypressContainer.style.background = "#333";
+    }
+});
+
+const nav = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 0 ) {
+        nav.style.top = "0";
+    } else {
+        nav.style.top = "-50px";
     }
 })
